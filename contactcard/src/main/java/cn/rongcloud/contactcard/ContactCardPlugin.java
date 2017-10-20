@@ -11,9 +11,6 @@ import io.rong.imkit.RongExtension;
 import io.rong.imkit.plugin.IPluginModule;
 import io.rong.imlib.model.Conversation;
 
-/**
- * Created by Beyond on 2016/11/14.
- */
 
 public class ContactCardPlugin implements IPluginModule {
 

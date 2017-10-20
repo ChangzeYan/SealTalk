@@ -7,10 +7,6 @@ import java.util.Map;
 import cn.rongcloud.im.db.Friend;
 import cn.rongcloud.im.db.GroupMember;
 
-/**
- * Created by tiankui on 16/9/26.
- */
-
 public class SearchResult {
 
 

@@ -30,10 +30,6 @@ import cn.rongcloud.im.server.widget.SelectableRoundedImageView;
 import io.rong.imageloader.core.ImageLoader;
 import io.rong.imkit.RongIM;
 
-/**
- * Created by AMing on 16/3/8.
- * Company RongCloud
- */
 public class GroupListActivity extends BaseActivity {
 
     private ListView mGroupListView;

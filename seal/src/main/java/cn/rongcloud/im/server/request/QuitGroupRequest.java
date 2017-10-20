@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.request;
 
-/**
- * Created by AMing on 16/1/29.
- * Company RongCloud
- */
+
 public class QuitGroupRequest {
 
     private String groupId;

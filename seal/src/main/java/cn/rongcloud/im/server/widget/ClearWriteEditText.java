@@ -14,11 +14,6 @@ import android.widget.EditText;
 
 import cn.rongcloud.im.R;
 
-
-/**
- * Created by AMing on 15/11/2.
- * Company RongCloud
- */
 public class ClearWriteEditText extends EditText implements View.OnFocusChangeListener , TextWatcher {
 
     /**

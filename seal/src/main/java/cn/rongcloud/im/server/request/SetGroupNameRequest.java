@@ -1,9 +1,5 @@
 package cn.rongcloud.im.server.request;
 
-/**
- * Created by AMing on 16/1/28.
- * Company RongCloud
- */
 public class SetGroupNameRequest {
 
     private String groupId;

@@ -1,10 +1,6 @@
 package cn.rongcloud.im.server.response;
 
 
-/**
- * Created by AMing on 15/12/22.
- * Company RongCloud
- */
 public class CheckPhoneResponse {
 
     private int code;

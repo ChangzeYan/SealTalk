@@ -49,10 +49,7 @@ import io.rong.imkit.userInfoCache.RongUserInfoManager;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/1/21.
- * Company RongCloud
- */
+
 public class SelectFriendsActivity extends BaseActivity implements View.OnClickListener {
 
     private static final int ADD_GROUP_MEMBER = 21;

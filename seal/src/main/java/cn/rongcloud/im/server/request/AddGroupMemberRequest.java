@@ -2,10 +2,6 @@ package cn.rongcloud.im.server.request;
 
 import java.util.List;
 
-/**
- * Created by AMing on 16/1/27.
- * Company RongCloud
- */
 public class AddGroupMemberRequest {
 
     private String groupId;

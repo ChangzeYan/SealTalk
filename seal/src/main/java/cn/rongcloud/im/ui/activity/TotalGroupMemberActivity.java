@@ -31,10 +31,6 @@ import io.rong.imageloader.core.ImageLoader;
 import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/7/1.
- * Company RongCloud
- */
 public class TotalGroupMemberActivity extends BaseActivity {
     private static final int CLICK_CONVERSATION_USER_PORTRAIT = 1;
 

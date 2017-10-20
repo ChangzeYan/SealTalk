@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.response;
 
-/**
- * Created by AMing on 16/7/20.
- * Company RongCloud
- */
+
 public class VersionResponse {
 
 

@@ -19,9 +19,6 @@ import io.rong.imlib.model.MentionedInfo;
 import io.rong.imlib.model.MessageContent;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by Beyond on 2016/12/5.
- */
 
 @MessageTag(value = "RCD:TstMsg", flag = MessageTag.ISCOUNTED | MessageTag.ISPERSISTED)
 public class TestMessage extends MessageContent {

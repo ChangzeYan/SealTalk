@@ -28,7 +28,7 @@ import android.widget.ImageView;
 
 import cn.rongcloud.im.R;
 
-public class SelectableRoundedImageView extends ImageView {
+public class SelectableRoundedImageView extends android.support.v7.widget.AppCompatImageView {
 
     public static final String TAG = "SelectableRoundedImageView";
 

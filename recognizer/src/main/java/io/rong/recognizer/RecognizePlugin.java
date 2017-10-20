@@ -1,10 +1,11 @@
 package io.rong.recognizer;
 
 import android.Manifest;
+import android.support.v4.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.support.v4.app.Fragment;
+
 import android.text.Editable;
 
 import com.iflytek.cloud.SpeechConstant;
@@ -14,9 +15,6 @@ import io.rong.imkit.RongExtension;
 import io.rong.imkit.plugin.IPluginModule;
 import io.rong.imkit.utilities.PermissionCheckUtil;
 
-/**
- * Created by zwfang on 16/11/8.
- */
 
 public class RecognizePlugin implements IPluginModule {
     private RecognizerView recognizerView;

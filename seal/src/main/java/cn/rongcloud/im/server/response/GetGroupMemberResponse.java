@@ -3,10 +3,7 @@ package cn.rongcloud.im.server.response;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by AMing on 16/1/27.
- * Company RongCloud
- */
+
 public class GetGroupMemberResponse implements Serializable {
 
     private static final long serialVersionUID = -3972802951229254770L;

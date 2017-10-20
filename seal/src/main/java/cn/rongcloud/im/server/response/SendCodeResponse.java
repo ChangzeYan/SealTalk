@@ -1,10 +1,6 @@
 package cn.rongcloud.im.server.response;
 
 
-/**
- * Created by AMing on 15/12/23.
- * Company RongCloud
- */
 public class SendCodeResponse {
 
     private int code;

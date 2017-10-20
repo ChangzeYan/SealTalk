@@ -26,11 +26,6 @@ import java.util.Properties;
 
 /**
  * [公共工具类，与Android API相关的辅助类]
- *
- * @author devin.hu
- * @version 1.0
- * @date 2013-9-30
- *
  **/
 public class CommonUtils {
 

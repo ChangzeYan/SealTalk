@@ -16,9 +16,6 @@ import io.rong.imlib.MessageTag;
 import io.rong.imlib.model.MessageContent;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by Beyond on 2016/12/5.
- */
 
 @MessageTag(value = "RC:CardMsg", flag = MessageTag.ISCOUNTED | MessageTag.ISPERSISTED)
 public class ContactMessage extends MessageContent {

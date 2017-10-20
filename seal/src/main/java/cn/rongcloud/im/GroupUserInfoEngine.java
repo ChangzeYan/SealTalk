@@ -13,10 +13,6 @@ import cn.rongcloud.im.server.response.GetGroupMemberResponse;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.model.GroupUserInfo;
 
-/**
- * Created by AMing on 16/2/29.
- * Company RongCloud
- */
 public class GroupUserInfoEngine implements OnDataListener {
 
     private String groupId, userId;

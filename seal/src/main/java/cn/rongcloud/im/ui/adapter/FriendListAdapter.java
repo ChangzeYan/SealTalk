@@ -18,10 +18,7 @@ import cn.rongcloud.im.db.Friend;
 import cn.rongcloud.im.server.widget.SelectableRoundedImageView;
 import io.rong.imageloader.core.ImageLoader;
 
-/**
- * Created by AMing on 16/1/14.
- * Company RongCloud
- */
+
 public class FriendListAdapter extends BaseAdapter implements SectionIndexer {
 
     private Context context;
@@ -121,7 +118,6 @@ public class FriendListAdapter extends BaseAdapter implements SectionIndexer {
                 return i;
             }
         }
-
         return -1;
     }
 

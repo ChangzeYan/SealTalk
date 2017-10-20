@@ -1,10 +1,6 @@
 package cn.rongcloud.im.server.request;
 
 
-/**
- * Created by AMing on 15/12/24.
- * Company RongCloud
- */
 public class LoginRequest {
 
 

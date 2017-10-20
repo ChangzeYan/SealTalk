@@ -15,8 +15,7 @@ import cn.rongcloud.im.SealAppContext;
 import io.rong.imkit.RongIM;
 
 /**
- * Created by AMing on 16/8/5.
- * Company RongCloud
+ * Created by Yangtse on 2017/5/2.
  */
 public class SplashActivity extends Activity {
 
@@ -27,9 +26,10 @@ public class SplashActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);//隐藏系统自带标题栏
         setContentView(R.layout.activity_splash);
         context = this;
+        //判断是否已经登陆
         SharedPreferences sp = getSharedPreferences("config", MODE_PRIVATE);
         String cacheToken = sp.getString("loginToken", "");
         if (!TextUtils.isEmpty(cacheToken)) {
@@ -39,14 +39,14 @@ public class SplashActivity extends Activity {
                 public void run() {
                     goToMain();
                 }
-            }, 800);
+            }, 1000);
         } else {
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     goToLogin();
                 }
-            }, 800);
+            }, 1000);
         }
     }
 

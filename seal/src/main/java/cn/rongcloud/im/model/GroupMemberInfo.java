@@ -1,8 +1,5 @@
 package cn.rongcloud.im.model;
 
-/**
- * Created by tiankui on 16/9/7.
- */
 public class GroupMemberInfo {
 
     private String groupId;

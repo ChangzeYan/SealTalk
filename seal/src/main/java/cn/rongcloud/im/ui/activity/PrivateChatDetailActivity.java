@@ -37,10 +37,6 @@ import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Message;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/3/9.
- * Company RongCloud
- */
 public class PrivateChatDetailActivity extends BaseActivity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
 
     private static final int SEARCH_TYPE_FLAG = 1;

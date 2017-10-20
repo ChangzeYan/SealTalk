@@ -16,10 +16,7 @@ import cn.rongcloud.im.server.network.http.HttpException;
 
 /**
  * [JSON解析管理类]
- *
- * @author huxinwu
  * @version 1.0
- * @date 2014-3-5
  *
  **/
 public class JsonMananger {

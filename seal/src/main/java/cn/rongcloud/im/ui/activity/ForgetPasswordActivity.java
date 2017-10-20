@@ -22,10 +22,7 @@ import cn.rongcloud.im.server.utils.downtime.DownTimerListener;
 import cn.rongcloud.im.server.widget.ClearWriteEditText;
 import cn.rongcloud.im.server.widget.LoadDialog;
 
-/**
- * Created by AMing on 16/2/2.
- * Company RongCloud
- */
+
 @SuppressWarnings("deprecation")
 public class ForgetPasswordActivity extends BaseActivity implements View.OnClickListener, DownTimerListener {
 
@@ -45,7 +42,6 @@ public class ForgetPasswordActivity extends BaseActivity implements View.OnClick
         setContentView(R.layout.activity_forget);
         setTitle(R.string.forget_password);
         initView();
-
     }
 
     private void initView() {
@@ -216,7 +212,7 @@ public class ForgetPasswordActivity extends BaseActivity implements View.OnClick
                     DownTimer downTimer = new DownTimer();
                     downTimer.setListener(this);
                     downTimer.startDown(60 * 1000);
-                    request(SEND_CODE);
+                    request(SEND_CODE);//发送获取验证码的请求
                 }
                 break;
             case R.id.forget_button:

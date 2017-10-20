@@ -26,7 +26,18 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="40dp"
+            android:text="QCY"
+            android:id="@+id/de_login_text"
+            android:typeface="monospace"
+            />
+        <!--
         <ImageView
             android:id="@+id/de_login_logo"
             android:layout_width="wrap_content"
@@ -34,6 +45,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="61dip"
             android:src="@drawable/seal_logo" />
+        -->
 
         <cn.rongcloud.im.server.widget.ClearWriteEditText
             android:id="@+id/reg_username"

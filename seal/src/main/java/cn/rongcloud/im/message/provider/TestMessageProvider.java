@@ -27,10 +27,6 @@ import io.rong.imkit.widget.provider.IContainerItemProvider;
 import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Message;
 
-/**
- * Created by Beyond on 2016/12/5.
- */
-
 @ProviderTag(messageContent = TestMessage.class, showReadState = true)
 public class TestMessageProvider extends IContainerItemProvider.MessageProvider<TestMessage>{
     private static final String TAG = "TestMessageItemProvider";

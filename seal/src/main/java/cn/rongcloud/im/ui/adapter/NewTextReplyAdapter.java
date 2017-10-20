@@ -14,9 +14,6 @@ import cn.rongcloud.im.utils.Resource;
 import io.rong.imkit.widget.AsyncImageView;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by Bob on 15/10/12.
- */
 public class NewTextReplyAdapter extends android.widget.BaseAdapter {
     private Context mContext;
     private List<UserInfo> mNumberList;

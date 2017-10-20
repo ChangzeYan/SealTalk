@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.request;
 
-/**
- * Created by AMing on 16/1/25.
- * Company RongCloud
- */
+
 public class SetGroupPortraitRequest {
 
     private String groupId;

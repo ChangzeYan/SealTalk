@@ -10,7 +10,6 @@ import io.rong.imkit.RongContext;
 import io.rong.imkit.fragment.SubConversationListFragment;
 
 /**
- * Created by Bob on 15/11/3.
  * 聚合会话列表
  */
 public class SubConversationListActivity extends BaseActivity {

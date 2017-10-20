@@ -49,9 +49,6 @@ import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.SearchConversationResult;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by tiankui on 16/10/8.
- */
 
 public class SealSearchMoreChattingRecordsActivity extends Activity {
 

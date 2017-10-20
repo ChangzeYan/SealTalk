@@ -12,8 +12,6 @@ import io.rong.imlib.model.Group;
 
 /**
  * 群组信息提供者的异步请求类
- * Created by AMing on 16/1/26.
- * Company RongCloud
  */
 public class GroupInfoEngine implements OnDataListener {
 

@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.response;
 
-/**
- * Created by AMing on 16/3/31.
- * Company RongCloud
- */
+
 public class QiNiuTokenResponse {
 
 

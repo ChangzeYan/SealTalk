@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.response;
 
-/**
- * Created by AMing on 16/1/27.
- * Company RongCloud
- */
+
 public class AddGroupMemberResponse {
     private int code;
 

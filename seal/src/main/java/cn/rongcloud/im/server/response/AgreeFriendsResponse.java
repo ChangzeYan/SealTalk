@@ -1,10 +1,6 @@
 package cn.rongcloud.im.server.response;
 
 
-/**
- * Created by AMing on 16/1/8.
- * Company RongCloud
- */
 public class AgreeFriendsResponse {
     private int code;
 

@@ -1,9 +1,5 @@
 package cn.rongcloud.contactcard;
 
-/**
- * Created by Beyond on 2017/4/16.
- */
-
 public class ContactCardContext {
     private IContactCardInfoProvider iContactCardInfoProvider;
     private static volatile ContactCardContext contactCardContext = null;

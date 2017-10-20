@@ -1,10 +1,5 @@
 package cn.rongcloud.im.server.response;
 
-/**
- * Created by wangmingqiang on 16/9/11.
- * Company RongCloud
- */
-
 public class GetFriendInfoByIDResponse {
     private int code;
     private ResultEntity result;

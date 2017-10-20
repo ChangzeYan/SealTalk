@@ -27,9 +27,6 @@ import io.rong.imkit.widget.provider.IContainerItemProvider;
 import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Message;
 
-/**
- * Created by Beyond on 2016/12/5.
- */
 
 @ProviderTag(messageContent = ContactMessage.class, showProgress = false, showReadState = true, showSummaryWithName = false)
 public class ContactMessageItemProvider extends IContainerItemProvider.MessageProvider<ContactMessage> {

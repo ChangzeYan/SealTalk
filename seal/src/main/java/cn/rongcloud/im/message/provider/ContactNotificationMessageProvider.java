@@ -26,7 +26,6 @@ import io.rong.imkit.widget.provider.IContainerItemProvider;
 import io.rong.message.ContactNotificationMessage;
 
 /**
- * Created by Bob on 2015/4/17.
  * 如何自定义消息模板
  */
 @ProviderTag(messageContent = ContactNotificationMessage.class, showPortrait = false, centerInHorizontal = true, showProgress = false, showSummaryWithName = false)

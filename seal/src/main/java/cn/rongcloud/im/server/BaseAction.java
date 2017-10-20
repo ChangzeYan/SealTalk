@@ -8,10 +8,6 @@ import cn.rongcloud.im.server.network.http.HttpException;
 import cn.rongcloud.im.server.network.http.SyncHttpClient;
 import cn.rongcloud.im.server.utils.json.JsonMananger;
 
-/**
- * Created by AMing on 16/1/14.
- * Company RongCloud
- */
 public class BaseAction {
 
     private static final String DOMAIN = "http://api.sealtalk.im/";

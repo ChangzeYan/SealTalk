@@ -6,9 +6,6 @@ import java.util.Comparator;
 
 import cn.rongcloud.im.model.GroupMemberInfo;
 
-/**
- * Created by tiankui on 16/9/7.
- */
 public class GroupNameComparator implements Comparator<GroupMemberInfo> {
 
 

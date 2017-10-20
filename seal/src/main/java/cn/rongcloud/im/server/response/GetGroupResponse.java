@@ -2,10 +2,7 @@ package cn.rongcloud.im.server.response;
 
 import java.util.List;
 
-/**
- * Created by AMing on 16/1/26.
- * Company RongCloud
- */
+
 public class GetGroupResponse {
 
 

@@ -19,10 +19,6 @@ import cn.rongcloud.im.ui.widget.switchbutton.SwitchButton;
 import io.rong.common.RLog;
 import io.rong.imlib.RongIMClient;
 
-/**
- * Created by AMing on 16/6/23.
- * Company RongCloud
- */
 public class AccountSettingActivity extends BaseActivity implements View.OnClickListener {
 
     private boolean isDebug;

@@ -11,11 +11,7 @@ import cn.rongcloud.im.server.utils.NLog;
 
 /**
  * [倒计时类]
- *
- * @author devin.hu
  * @version 1.0
- * @date 2014-12-1
- *
  **/
 public class DownTimer {
 

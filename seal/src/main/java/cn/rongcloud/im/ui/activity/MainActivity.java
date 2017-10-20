@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -58,6 +59,8 @@ public class MainActivity extends FragmentActivity implements
     private TextView mTextChats, mTextContact, mTextFind, mTextMe;
     private DragPointView mUnreadNumView;
     private ImageView mSearchImageView;
+
+    private TextView yangtse_tv_titlebar_qcy;
     /**
      * 会话列表的fragment
      */
@@ -97,6 +100,8 @@ public class MainActivity extends FragmentActivity implements
         moreImage = (ImageView) findViewById(R.id.seal_more);
         mSearchImageView = (ImageView) findViewById(R.id.ac_iv_search);
 
+        yangtse_tv_titlebar_qcy=(TextView)findViewById(R.id.yangtse_titlebar_qcy);
+
         chatRLayout.setOnClickListener(this);
         contactRLayout.setOnClickListener(this);
         foundRLayout.setOnClickListener(this);
@@ -109,6 +114,9 @@ public class MainActivity extends FragmentActivity implements
                 mMineRed.setVisibility(View.VISIBLE);
             }
         });
+        //设置自定义字体
+        Typeface mtypeface=Typeface.createFromAsset(getAssets(),"fontfamily/CaviarDreams_Bold.ttf");
+        yangtse_tv_titlebar_qcy.setTypeface(mtypeface);
     }
 
 

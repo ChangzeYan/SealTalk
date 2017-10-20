@@ -6,9 +6,6 @@ import java.util.Comparator;
 
 import cn.rongcloud.im.db.Friend;
 
-/**
- * Created by tiankui on 16/9/1.
- */
 public class FriendNameComparator implements Comparator<Friend> {
 
 

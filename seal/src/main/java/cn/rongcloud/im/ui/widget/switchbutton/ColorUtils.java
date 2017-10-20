@@ -4,7 +4,6 @@ import android.content.res.ColorStateList;
 
 /**
  * Generate thumb and background color state list use tintColor
- * Created by kyle on 15/11/4.
  */
 public class ColorUtils {
     private static final int ENABLE_ATTR = android.R.attr.state_enabled;

@@ -6,10 +6,7 @@ import android.os.Environment;
 
 /**
  * [裁剪参数配置类]
- *
- * @author huxinwu
  * @version 1.0
- * @date 2015-1-7
  *
  **/
 public class PhotoParams {

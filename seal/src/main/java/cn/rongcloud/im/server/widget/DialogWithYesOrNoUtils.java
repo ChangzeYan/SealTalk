@@ -12,11 +12,6 @@ import cn.rongcloud.im.R;
 import cn.rongcloud.im.SealConst;
 import cn.rongcloud.im.server.utils.NToast;
 
-
-/**
- * Created by AMing on 15/11/26.
- * Company RongCloud
- */
 public class DialogWithYesOrNoUtils {
 
     private static DialogWithYesOrNoUtils instance = null;

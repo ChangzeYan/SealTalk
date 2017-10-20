@@ -8,10 +8,6 @@ import io.rong.imkit.RongIM;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
 
-/**
- * Created by AMing on 16/4/11.
- * Company RongCloud
- */
 public class OperationRong {
 
     public static void setConversationTop(final Context context, Conversation.ConversationType conversationType, String targetId, boolean state) {

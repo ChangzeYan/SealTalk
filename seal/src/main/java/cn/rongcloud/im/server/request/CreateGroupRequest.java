@@ -2,10 +2,7 @@ package cn.rongcloud.im.server.request;
 
 import java.util.List;
 
-/**
- * Created by AMing on 16/1/25.
- * Company RongCloud
- */
+
 public class CreateGroupRequest {
 
     private String name;

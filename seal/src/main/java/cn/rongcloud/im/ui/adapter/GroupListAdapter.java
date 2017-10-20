@@ -22,9 +22,6 @@ import cn.rongcloud.im.server.utils.RongGenerate;
 import cn.rongcloud.im.server.widget.SelectableRoundedImageView;
 import io.rong.imageloader.core.ImageLoader;
 
-/**
- * Created by tiankui on 16/10/7.
- */
 
 public class GroupListAdapter extends android.widget.BaseAdapter {
     private Map<String, List<GroupMember>> filterGroupNameListMap;

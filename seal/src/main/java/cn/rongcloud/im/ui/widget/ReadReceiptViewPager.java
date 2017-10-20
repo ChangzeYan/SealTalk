@@ -9,9 +9,7 @@ import android.widget.GridView;
 
 import io.rong.common.RLog;
 
-/**
- * Created by Yuejunhong on 16/10/11.
- */
+
 public class ReadReceiptViewPager extends ViewPager {
 
     private boolean unscrollable = true;

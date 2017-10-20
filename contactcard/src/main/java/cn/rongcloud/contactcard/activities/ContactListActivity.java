@@ -36,7 +36,7 @@ import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.UserInfo;
 
 /**
- * Created by Beyond on 30/12/2016.
+ * Created by Yangtse on 2017/5/21.
  */
 
 public class ContactListActivity extends Activity {

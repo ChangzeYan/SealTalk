@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.request;
 
-/**
- * Created by AMing on 16/3/4.
- * Company RongCloud
- */
+
 public class AddToBlackListRequest {
     private String friendId;
 

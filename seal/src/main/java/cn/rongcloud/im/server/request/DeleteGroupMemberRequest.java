@@ -2,10 +2,6 @@ package cn.rongcloud.im.server.request;
 
 import java.util.List;
 
-/**
- * Created by AMing on 16/1/28.
- * Company RongCloud
- */
 public class DeleteGroupMemberRequest {
     private String groupId;
 

@@ -24,10 +24,6 @@ import io.rong.imkit.RongIM;
 import io.rong.imkit.utilities.PromptPopupDialog;
 import io.rong.imlib.RongIMClient;
 
-/**
- * Created by AMing on 16/8/1.
- * Company RongCloud
- */
 public class SinglePopWindow extends PopupWindow {
     private static final int ADDBLACKLIST = 167;
     private static final int REMOVEBLACKLIST = 168;

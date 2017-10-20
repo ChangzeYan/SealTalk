@@ -12,7 +12,6 @@ import io.rong.imlib.model.SearchConversationResult;
 
 /**
  * 日期工具类
- * Created by bob on 2015/2/28.
  */
 public class DateUtils {
 

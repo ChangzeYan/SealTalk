@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.request;
 
-/**
- * Created by AMing on 16/1/18.
- * Company RongCloud
- */
+
 public class SetNameRequest {
 
     private String nickname;

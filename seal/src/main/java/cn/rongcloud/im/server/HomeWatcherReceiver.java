@@ -9,8 +9,6 @@ import cn.rongcloud.im.ui.activity.MainActivity;
 
 /**
  * 机型适配: 处理三星 note2  note3 按 Home 键退至后台的花屏问题
- * Created by AMing on 16/8/24.
- * Company RongCloud
  */
 public class HomeWatcherReceiver extends BroadcastReceiver {
     private static final String LOG_TAG = "HomeReceiver";

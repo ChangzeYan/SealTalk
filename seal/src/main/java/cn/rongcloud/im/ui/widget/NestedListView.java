@@ -1,9 +1,6 @@
 package cn.rongcloud.im.ui.widget;
 
 
-/**
- * Created by tiankui on 16/9/13.
- */
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -14,9 +11,6 @@ import android.widget.AbsListView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-/**
- * Created by tiankui on 16/9/12.
- */
 public class NestedListView extends ListView implements View.OnTouchListener, AbsListView.OnScrollListener {
 
     private int listViewTouchAction;

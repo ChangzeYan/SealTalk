@@ -10,11 +10,9 @@ import cn.rongcloud.im.server.network.async.OnDataListener;
 import cn.rongcloud.im.server.network.http.HttpException;
 import cn.rongcloud.im.server.response.GetUserInfoByIdResponse;
 import io.rong.imlib.model.UserInfo;
-
 /**
  * 用户信息提供者的异步请求类
- * Created by AMing on 15/12/10.
- * Company RongCloud
+ * Created by Yangtse on 2017/5/4.
  */
 public class UserInfoEngine implements OnDataListener {
 

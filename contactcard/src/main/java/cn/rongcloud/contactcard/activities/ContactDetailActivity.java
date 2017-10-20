@@ -38,9 +38,8 @@ import io.rong.imlib.model.Group;
 import io.rong.imlib.model.Message;
 import io.rong.imlib.model.UserInfo;
 import io.rong.message.TextMessage;
-
 /**
- * Created by Beyond on 2016/11/24.
+ * Created by Yangtse on 2017/5/21.
  */
 
 public class ContactDetailActivity extends Activity {

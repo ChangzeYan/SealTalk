@@ -46,10 +46,6 @@ import io.rong.imlib.model.MessageContent;
 import io.rong.message.RichContentMessage;
 import io.rong.message.TextMessage;
 
-/**
- * Created by AMing on 16/7/12.
- * Company RongCloud
- */
 public class SharedReceiverActivity extends BaseActivity {
 
     private List<Conversation> conversationsList;

@@ -55,9 +55,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Yuejunhong on 16/10/10.
  * 回执详情
- * Company RongCloud
  */
 public class ReadReceiptDetailActivity extends BaseActivity {
 

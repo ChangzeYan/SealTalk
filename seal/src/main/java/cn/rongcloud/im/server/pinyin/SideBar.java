@@ -127,10 +127,6 @@ public class SideBar extends View {
                 }
                 break;
         }
-
-
-
-
         return true;
     }
     /**

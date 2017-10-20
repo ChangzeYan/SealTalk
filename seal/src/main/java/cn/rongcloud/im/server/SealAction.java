@@ -76,10 +76,6 @@ import cn.rongcloud.im.server.response.VersionResponse;
 import cn.rongcloud.im.server.utils.NLog;
 import cn.rongcloud.im.server.utils.json.JsonMananger;
 
-/**
- * Created by AMing on 16/1/14.
- * Company RongCloud
- */
 @SuppressWarnings("deprecation")
 public class SealAction extends BaseAction {
     private final String CONTENT_TYPE = "application/json";

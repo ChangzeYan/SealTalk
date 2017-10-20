@@ -7,10 +7,6 @@ import android.widget.EditText;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by AMing on 15/12/21.
- * Company RongCloud
- */
 public class AMUtils {
 
     /**

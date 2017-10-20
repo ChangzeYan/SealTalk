@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.request;
 
-/**
- * Created by AMing on 16/4/5.
- * Company RongCloud
- */
+
 public class UpLoadImageRequest {
 
     private byte[] data;

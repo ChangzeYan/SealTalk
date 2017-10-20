@@ -72,10 +72,7 @@ import io.rong.imlib.model.Group;
 import io.rong.imlib.model.Message;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/1/27.
- * Company RongCloud
- */
+
 public class GroupDetailActivity extends BaseActivity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
 
     private static final int CLICK_CONVERSATION_USER_PORTRAIT = 1;

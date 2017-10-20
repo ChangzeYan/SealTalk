@@ -17,10 +17,6 @@ import cn.rongcloud.im.server.response.ChangePasswordResponse;
 import cn.rongcloud.im.server.utils.NToast;
 import cn.rongcloud.im.server.widget.LoadDialog;
 
-/**
- * Created by AMing on 16/6/23.
- * Company RongCloud
- */
 public class UpdatePasswordActivity extends BaseActivity implements View.OnClickListener {
 
     private static final int UPDATE_PASSWORD = 15;

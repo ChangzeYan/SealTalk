@@ -5,9 +5,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.GridView;
 
-/**
- * Created by Bob on 15/7/31.
- */
+
 public class DemoGridView  extends GridView {
 
     public DemoGridView(Context context) {

@@ -42,10 +42,6 @@ import io.rong.imlib.model.Discussion;
 import io.rong.imlib.model.UserInfo;
 
 
-/**
- * Created by AMing on 16/5/5.
- * Company RongCloud
- */
 public class DiscussionDetailActivity extends BaseActivity implements CompoundButton.OnCheckedChangeListener, View.OnClickListener {
 
     private static final int FIND_USER_INFO = 10;

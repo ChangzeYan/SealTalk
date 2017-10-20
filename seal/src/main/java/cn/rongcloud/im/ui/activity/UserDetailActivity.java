@@ -53,9 +53,6 @@ import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.UserInfo;
 import io.rong.imlib.model.UserOnlineStatusInfo;
 
-/**
- * Created by tiankui on 16/11/2.
- */
 
 public class UserDetailActivity extends BaseActivity implements View.OnClickListener {
 
@@ -363,7 +360,6 @@ public class UserDetailActivity extends BaseActivity implements View.OnClickList
                     }
                     break;
                 case SYN_USER_INFO:
-                    //TODO:群组里的好友备注功能，还没有实现；
                     GetUserInfoByIdResponse userInfoByIdResponse = (GetUserInfoByIdResponse) result;
                     if (userInfoByIdResponse.getCode() == 200 && userInfoByIdResponse.getResult() != null &&
                             mFriend.getUserId().equals(userInfoByIdResponse.getResult().getId())) {

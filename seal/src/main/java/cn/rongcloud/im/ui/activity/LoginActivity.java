@@ -3,6 +3,7 @@ package cn.rongcloud.im.ui.activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -36,10 +37,7 @@ import io.rong.imkit.RongIM;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/1/15.
- * Company RongCloud
- */
+
 public class LoginActivity extends BaseActivity implements View.OnClickListener {
 
     private final static String TAG = "LoginActivity";
@@ -55,6 +53,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private SharedPreferences sp;
     private SharedPreferences.Editor editor;
     private String loginToken;
+
+    private TextView de_login_tv_text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,10 +72,16 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         Button mConfirm = (Button) findViewById(R.id.de_login_sign);
         TextView mRegister = (TextView) findViewById(R.id.de_login_register);
         TextView forgetPassword = (TextView) findViewById(R.id.de_login_forgot);
+
+        de_login_tv_text=(TextView)findViewById(R.id.de_login_text);
+        Typeface mtypeface=Typeface.createFromAsset(getAssets(),"fontfamily/DroidSans.ttf");
+        de_login_tv_text.setTypeface(mtypeface);
+
         forgetPassword.setOnClickListener(this);
         mConfirm.setOnClickListener(this);
         mRegister.setOnClickListener(this);
         mImg_Background = (ImageView) findViewById(R.id.de_img_backgroud);
+        //平移背景动画
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -88,10 +94,11 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
             }
-
+            /*mContext继承自BaseActivity中的 protext Context mContext*/
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (s.length() == 11) {
+                    /*用于验证手机号是否合法*/
                     AMUtils.onInactive(mContext, mPhoneEdit);
                 }
             }
@@ -209,7 +216,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         }
         return null;
     }
-
+    /*重写BaseActivity的onSuccess方法，参数为请求码和返回结果*/
     @Override
     public void onSuccess(int requestCode, Object result) {
         if (result != null) {

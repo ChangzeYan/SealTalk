@@ -23,10 +23,7 @@ import cn.rongcloud.im.server.widget.LoadDialog;
 import io.rong.imkit.RongIM;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/8/10.
- * Company RongCloud
- */
+
 @SuppressWarnings("deprecation")
 public class NoteInformationActivity extends BaseActivity {
 

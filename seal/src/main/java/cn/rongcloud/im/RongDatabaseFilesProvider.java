@@ -9,9 +9,7 @@ import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by jiangecho on 2016/11/23.
- */
+
 
 public class RongDatabaseFilesProvider implements DatabaseFilesProvider {
     private Context context;

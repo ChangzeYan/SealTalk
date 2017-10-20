@@ -1,6 +1,7 @@
 package cn.rongcloud.im.ui.activity;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.Editable;
@@ -27,10 +28,6 @@ import cn.rongcloud.im.server.utils.downtime.DownTimerListener;
 import cn.rongcloud.im.server.widget.ClearWriteEditText;
 import cn.rongcloud.im.server.widget.LoadDialog;
 
-/**
- * Created by AMing on 16/1/14.
- * Company RongCloud
- */
 @SuppressWarnings("deprecation")
 public class RegisterActivity extends BaseActivity implements View.OnClickListener, DownTimerListener {
 
@@ -44,6 +41,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
     private Button mGetCode, mConfirm;
     private String mPhone, mCode, mNickName, mPassword, mCodeToken;
     private boolean isRequestCode = false;
+
+    private TextView de_login_tv_text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +60,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         mGetCode = (Button) findViewById(R.id.reg_getcode);
         mConfirm = (Button) findViewById(R.id.reg_button);
 
+
         mGetCode.setOnClickListener(this);
         mGetCode.setClickable(false);
         mConfirm.setOnClickListener(this);
@@ -69,6 +69,10 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         TextView goForget = (TextView) findViewById(R.id.reg_forget);
         goLogin.setOnClickListener(this);
         goForget.setOnClickListener(this);
+
+        de_login_tv_text=(TextView)findViewById(R.id.de_login_text);
+        Typeface mtypeface=Typeface.createFromAsset(getAssets(),"fontfamily/DroidSans.ttf");
+        de_login_tv_text.setTypeface(mtypeface);
 
         mImgBackground = (ImageView) findViewById(R.id.rg_img_backgroud);
         new Handler().postDelayed(new Runnable() {

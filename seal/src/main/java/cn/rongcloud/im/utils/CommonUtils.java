@@ -20,9 +20,7 @@ import java.util.regex.Pattern;
 import cn.rongcloud.im.model.SealSearchConversationResult;
 import io.rong.imlib.model.SearchConversationResult;
 
-/**
- * Created by bob on 2015/2/2.
- */
+
 public class CommonUtils {
 
     /**

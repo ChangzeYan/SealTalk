@@ -48,8 +48,6 @@ import io.rong.imlib.model.Group;
 import io.rong.imlib.model.UserInfo;
 
 /**
- * Created by wangmingqiang on 16/9/10.
- * Company RongCloud
  * 数据库访问接口,目前接口有同步和异步之分
  * 第一次login时从app server获取数据,之后数据库读,数据的更新使用IMKit里的通知类消息
  * 因为存在app server获取数据失败的情况,代码里有很多这种异常情况的判断处理并重新从app server获取数据
@@ -327,7 +325,6 @@ public class SealUserInfoManager implements OnDataListener {
                             }
                         }
                         //部分群组信息同步的情况,此时需要特殊处理,但是目前暂未处理
-                        //// TODO: 16/9/20
                         if (!hasGetAllGroupMembers()) {
                             if (hasGetPartGroupMembers()) {
                                 syncDeleteGroupMembers();

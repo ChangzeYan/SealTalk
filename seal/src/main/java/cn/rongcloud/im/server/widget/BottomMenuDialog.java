@@ -17,11 +17,6 @@ import cn.rongcloud.im.R;
 
 /**
  * [底部弹出dialog]
- *
- * @author devin.hu
- * @version 1.0
- * @date 2014-1-15
- *
  **/
 public class BottomMenuDialog extends Dialog implements View.OnClickListener {
 

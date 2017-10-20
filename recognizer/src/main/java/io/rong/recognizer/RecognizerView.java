@@ -32,10 +32,6 @@ import java.util.Locale;
 import java.util.Random;
 
 
-
-/**
- * Created by zwfang on 16/11/8.
- */
 public class RecognizerView extends RelativeLayout implements RecognizerListener {
 
     private final static String TAG = "RecognizerView";

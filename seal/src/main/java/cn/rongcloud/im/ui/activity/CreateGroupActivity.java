@@ -43,10 +43,7 @@ import io.rong.imkit.emoticon.AndroidEmoji;
 import io.rong.imkit.widget.AsyncImageView;
 import io.rong.imlib.model.Conversation;
 
-/**
- * Created by AMing on 16/1/25.
- * Company RongCloud
- */
+
 public class CreateGroupActivity extends BaseActivity implements View.OnClickListener {
 
     private static final int GET_QI_NIU_TOKEN = 131;

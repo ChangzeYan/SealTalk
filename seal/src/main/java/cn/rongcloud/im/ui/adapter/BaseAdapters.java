@@ -7,10 +7,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Created by AMing on 15/11/13.
- * Company RongCloud
- */
+
 public abstract class BaseAdapters<T> extends android.widget.BaseAdapter {
 
     protected List<T> dataSet;

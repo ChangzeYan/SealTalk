@@ -62,9 +62,6 @@ import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.SearchConversationResult;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by tiankui on 16/8/31.
- */
 public class SealSearchActivity extends Activity {
     private static final int SEARCH_TYPE_FLAG = 1;
 

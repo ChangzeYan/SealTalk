@@ -1,8 +1,5 @@
 package cn.rongcloud.im.stetho;
 
-/**
- * Created by jiangecho on 2016/12/22.
- */
 
 import android.content.Context;
 import android.os.Environment;

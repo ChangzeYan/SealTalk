@@ -5,10 +5,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import io.rong.common.ParcelUtils;
-/**
- * Created by AMing on 16/6/13.
- * Company RongCloud
- */
+
 public class Resource implements Parcelable {
     protected Uri uri;
     public static final Creator<Resource> CREATOR = new Creator() {

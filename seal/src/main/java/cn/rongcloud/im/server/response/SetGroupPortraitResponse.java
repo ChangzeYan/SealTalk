@@ -1,9 +1,5 @@
 package cn.rongcloud.im.server.response;
 
-/**
- * Created by AMing on 16/1/25.
- * Company RongCloud
- */
 public class SetGroupPortraitResponse {
 
     private int code;

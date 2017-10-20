@@ -2,10 +2,7 @@ package cn.rongcloud.im.server.request;
 
 import java.util.List;
 
-/**
- * Created by AMing on 16/5/23.
- * Company RongCloud
- */
+
 public class GetUserInfosRequest {
     private List<String> querystring;
 

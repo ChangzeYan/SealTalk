@@ -14,10 +14,7 @@ import io.rong.imkit.fragment.ConversationFragment;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
 
-/**
- * Created by AMing on 16/5/27.
- * Company RongCloud
- */
+
 public class DoubleChatRoomActivity extends FragmentActivity {
     private String chatroomId1;
     private String chatroomId2;

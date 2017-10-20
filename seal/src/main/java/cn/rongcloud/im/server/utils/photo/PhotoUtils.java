@@ -21,10 +21,7 @@ import cn.rongcloud.im.server.utils.CommonUtils;
 
 /**
  * [从本地选择图片以及拍照工具类，完美适配2.0-5.0版本]
- *
- * @author huxinwu
  * @version 1.0
- * @date 2015-1-7
  **/
 public class PhotoUtils {
 

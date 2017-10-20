@@ -18,10 +18,6 @@ import cn.rongcloud.im.server.widget.LoadDialog;
 import io.rong.imkit.RongIM;
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/6/23.
- * Company RongCloud
- */
 public class UpdateNameActivity extends BaseActivity implements View.OnClickListener {
 
     private static final int UPDATE_NAME = 7;

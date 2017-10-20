@@ -42,9 +42,6 @@ import de.greenrobot.dao.query.QueryBuilder;
 import io.rong.imageloader.core.ImageLoader;
 import io.rong.imkit.RongIM;
 
-/**
- * Created by tiankui on 16/9/2.
- */
 public class SealSearchMoreFriendsActivity extends Activity implements AdapterView.OnItemClickListener {
 
     private EditText mSearchEditText;

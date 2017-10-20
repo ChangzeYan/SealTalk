@@ -1,9 +1,5 @@
 package cn.rongcloud.im.message.provider;
 
-/**
- * Created by AMing on 16/4/14.
- * Company RongCloud
- */
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;

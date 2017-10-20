@@ -18,10 +18,6 @@ import java.util.Random;
 
 import io.rong.imlib.model.UserInfo;
 
-/**
- * Created by AMing on 16/4/6.
- * Company RongCloud
- */
 public class RongGenerate {
 
     private static String SAVEADDRESS = "/data/data/cn.rongcloud.im/temp";

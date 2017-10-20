@@ -50,8 +50,6 @@ import io.rong.message.ImageMessage;
 
 /**
  * 融云相关监听 事件集合类
- * Created by AMing on 16/1/7.
- * Company RongCloud
  */
 public class SealAppContext implements RongIM.ConversationListBehaviorListener,
         RongIMClient.OnReceiveMessageListener,

@@ -10,9 +10,6 @@ import io.rong.imlib.model.Conversation;
 import io.rong.imlib.model.Message;
 import io.rong.imlib.model.SearchConversationResult;
 
-/**
- * Created by tiankui on 2/7/17.
- */
 
 public class SealSearchConversationResult extends SearchConversationResult implements Parcelable {
 

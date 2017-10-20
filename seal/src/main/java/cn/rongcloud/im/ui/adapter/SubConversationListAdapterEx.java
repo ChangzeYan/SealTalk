@@ -8,9 +8,7 @@ import io.rong.imkit.model.UIConversation;
 import io.rong.imkit.widget.adapter.SubConversationListAdapter;
 import io.rong.imlib.model.Conversation;
 
-/**
- * Created by weiqinxiao on 15/11/6.
- */
+
 public class SubConversationListAdapterEx extends SubConversationListAdapter {
 
     public SubConversationListAdapterEx(Context context) {

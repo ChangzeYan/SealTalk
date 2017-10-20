@@ -21,10 +21,7 @@ import cn.rongcloud.im.utils.DateUtils;
 import io.rong.imkit.RongIM;
 import io.rong.imlib.RongIMClient;
 
-/**
- * Created by AMing on 16/8/29.
- * Company RongCloud
- */
+
 public class MessageDisturbActivity extends BaseActivity implements View.OnClickListener {
 
     private static final String TAG = DisturbActivity.class.getSimpleName();

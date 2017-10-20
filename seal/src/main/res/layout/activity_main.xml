@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <!--include引用定义好的标题栏-->
     <include layout="@layout/layout_top" />
     <android.support.v4.view.ViewPager
         android:id="@+id/main_viewpager"

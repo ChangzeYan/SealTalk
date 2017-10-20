@@ -1,10 +1,6 @@
 package cn.rongcloud.im.server.request;
 
 
-/**
- * Created by AMing on 16/1/7.
- * Company RongCloud
- */
 public class FriendInvitationRequest {
     private String friendId;
     private String message;

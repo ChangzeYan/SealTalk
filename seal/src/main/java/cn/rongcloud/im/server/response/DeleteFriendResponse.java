@@ -1,9 +1,6 @@
 package cn.rongcloud.im.server.response;
 
-/**
- * Created by AMing on 16/2/17.
- * Company RongCloud
- */
+
 public class DeleteFriendResponse {
 
     private int code;

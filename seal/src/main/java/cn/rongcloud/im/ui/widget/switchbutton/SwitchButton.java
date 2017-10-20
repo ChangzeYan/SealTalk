@@ -32,9 +32,6 @@ import cn.rongcloud.im.R;
 
 /**
  * SwitchButton
- *
- * @author kyleduo
- * @since 2014-09-24
  */
 
 public class SwitchButton extends CompoundButton {

@@ -235,6 +235,7 @@ public abstract class BaseActivity extends FragmentActivity implements OnDataLis
         return null;
     }
 
+    /*重写OnDataListener中的onSuccess方法*/
     @Override
     public void onSuccess(int requestCode, Object result) {
 

@@ -1,9 +1,5 @@
 package cn.rongcloud.im.server.request;
 
-/**
- * Created by AMing on 16/2/17.
- * Company RongCloud
- */
 public class SetFriendDisplayNameRequest {
 
     private String friendId;

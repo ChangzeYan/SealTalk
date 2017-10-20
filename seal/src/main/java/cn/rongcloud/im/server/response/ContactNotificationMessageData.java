@@ -1,9 +1,5 @@
 package cn.rongcloud.im.server.response;
 
-/**
- * Created by AMing on 16/2/24.
- * Company RongCloud
- */
 public class ContactNotificationMessageData {
     /**
      * sourceUserNickname : 赵哈哈
